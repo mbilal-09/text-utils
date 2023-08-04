@@ -41,11 +41,11 @@ export default function TextArea(props) {
                     <label htmlFor="textBox" className="form-label"></label>
                     <textarea className="p-2" value={text} onChange={handleOnChange} placeholder='Enter text here' id="textBox" rows="8"></textarea>
                 </div>
-                <button className='btn btn-primary mx-2' onClick={upperCase}>ABC</button>
-                <button className='btn btn-primary mx-2' onClick={lowerCase}>abc</button>
-                <button className='btn btn-primary mx-2' onClick={clearText}>Clear</button>
-                <button className='btn btn-primary mx-2' onClick={copyText}>Copy Text</button>
-                <button className='btn btn-primary mx-2' onClick={removeSpaces}>Remove Extra Spaces</button>
+                <button className='btn btn-primary mx-2 mb-2' onClick={upperCase}>ABC</button>
+                <button className='btn btn-primary mx-2 mb-2' onClick={lowerCase}>abc</button>
+                <button className='btn btn-primary mx-2 mb-2' onClick={clearText}>Clear</button>
+                <button className='btn btn-primary mx-2 mb-2' onClick={copyText}>Copy Text</button>
+                <button className='btn btn-primary mx-2 mb-2' onClick={removeSpaces}>Remove Extra Spaces</button>
             </div>
             <div className="container my-3">
                 <h2>Text Summary</h2>
