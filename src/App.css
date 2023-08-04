@@ -1,0 +1,14 @@
+#textBox{
+    outline: none !important;
+    width: 100%;
+    border-color: #ccc;
+    border-radius: 5px;
+}
+
+.alert{
+    text-transform: capitalize;
+}
+
+.accordion-button{
+    box-shadow: none !important;
+}
